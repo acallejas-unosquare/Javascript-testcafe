@@ -49,6 +49,9 @@ test('Second test', async t => {
     await t
     .typeText(Selector('input').withAttribute('title', 'Buscar'), 'Test Cafe Automation')
     .pressKey('enter')
+    .wait(3000)
     .click(Selector('h3').withExactText('TestCafe'))
+    .wait(3000)
+    .scrollIntoView(Selector('a').withAttribute('class', 'info-btn').withExactText('Get Started'), {offsetX: -1, offsetY: -1})
     .expect(Selector('a').withAttribute('class', 'info-btn').withExactText('Get Started').exists).ok()
 });
