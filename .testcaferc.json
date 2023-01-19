@@ -8,6 +8,8 @@
     "debugOnFail": false,
     "selectorTimeout": 3000,
     "assertionTimeout": 1000,
-    "pageLoadTimeout": 1000
+    "pageLoadTimeout": 1000,
+    "concurrency": 3,
+    "speed": 0.9
 
 }
