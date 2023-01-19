@@ -1,6 +1,6 @@
 {
     "src": "./Tests/",
-    "browsers": ["chrome", "firefox"],
+    "browsers": ["firefox"],
     "output": "reports/report.xml",
     "screenshots": {
         "takeOnFails": true
