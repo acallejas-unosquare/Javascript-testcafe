@@ -1,5 +1,5 @@
 {
-    "src": "./Tests/",
+    "src": "./Tests/PageObjectTests/",
     "browsers": ["firefox"],
     "output": "reports/report.xml",
     "screenshots": {
